@@ -35,7 +35,7 @@ def merge_sorted_list(list1, list2):   # step 1
         else:
             index1 += 1
 # this is the pythonic way to copy the remaining elements of the list that is not empty into the result list
-    if index1 == len(list1): # note: using index1 < len(list1) will remove the last element of the list
+    if index2 < len(list2): 
         list1.extend(list2[index2:])
     return list1           
 
