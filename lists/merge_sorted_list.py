@@ -14,6 +14,15 @@
 # Step 7: return the result list
 # """
 
+"""
+Step 1: initialize two new variables to track the index of both the lists (to zero as the first elemetn of the list is 0)
+Step 2: compare the current elements of both. 
+Step 3: Filter if the current element of the first list is greater than the current element of the second list,
+Step 4: insert the current element of the second list in place of the current element of the first list 
+        and increment both index variables by 1
+Step 5: copy the reamining elements of the second list into the first list
+"""
+
 def merge_sorted_list(list1, list2):   # step 1
     index1 = 0                         # step 3
     index2 = 0
