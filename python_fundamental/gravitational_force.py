@@ -10,6 +10,6 @@ formular for gravitational force is GMm/r^2
 
 '''
 
-grav_force = (G*M*m)/r**2
+grav_force = (G * M * m)/(r ** 2)
 
 print(grav_force)
