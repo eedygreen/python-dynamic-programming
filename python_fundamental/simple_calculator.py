@@ -1,8 +1,5 @@
 #!/bin/python
 
-from audioop import mul
-
-
 def add(n1, n2):
     return n1 + n2
 
@@ -20,3 +17,9 @@ def calculate(operator, n1, n2):
 
 print(calculate(add, 3, 4))
 print(calculate(multiply, 3, 4))
+
+# use lambda to simplify the function
+
+add_num = calculate(lambda n1, n2: n1 + n2, 3, 4)
+
+print(add_num)
