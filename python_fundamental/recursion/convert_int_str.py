@@ -1,11 +1,6 @@
 #!/bin/env python
 # convert int to strings
 
-# {}.format 
-def rep_cat_form(x, y):
-    conv_x_str = "{}".format(x)
-    conv_y_str = "{}".format(y)
-
 # str() method
 def rep_cat(x, y):
     # Write your code here
