@@ -6,7 +6,7 @@
 def fibo(n):
     first_seq = 0
     second_seq = 1
-
+    
     if n < 1:
         return -1
     elif n <= 1:  # first number sequence
@@ -15,5 +15,4 @@ def fibo(n):
         return second_seq
     else: 
         return fibo(n - 1) + fibo( n - 2)
-
 print(fibo(65))
