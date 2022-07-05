@@ -8,4 +8,5 @@ print(list(greater_than_60))
 
 greater_than_50 = list(filter(lambda n: n > 50, num_list))
 
+
 print(f"elementss greater than 50: ", greater_than_50)
