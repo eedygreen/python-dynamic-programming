@@ -20,8 +20,10 @@ class Solution:
 
         # NOTE: the following code is also working
 
+        # it turns out that the following code has less runtime and same memory usage with the above code
+        return Counter(s) == Counter(t)
+
+        # this is the worst code
         if sorted(s) == sorted(t):
             return True
-
-        return Counter(s) == Counter(t)
         
