@@ -1,7 +1,7 @@
 #Given an array arr, replace every element in that array with the greatest element among the elements to its right,
 #  and replace the last element with -1.
 
-# solution 1, best case
+# solution 1, best case lesser runtime
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         # iniitialize max
@@ -19,7 +19,7 @@ class Solution:
             k -= 1
         return arr
 
-# solution 2 with for loops
+# solution 2 with for loops, same memory but slower runtime
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         last_ele = -1
